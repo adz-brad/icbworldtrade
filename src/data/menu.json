@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Home",
+        "slug": "/"
+    },
+    {
+        "title": "Products",
+        "slug": "/products"
+    },
+    {
+        "title": "Services",
+        "slug": "/services"
+    },
+    {
+        "title": "Manuals / Parts",
+        "slug": "/manuals-parts"
+    },
+    {
+        "title": "Residential",
+        "slug": "/residential"
+    },
+    {
+        "title": "About",
+        "slug": "/about"
+    },
+    {
+        "title": "Contact",
+        "slug": "/contact"
+    }
+]
