@@ -1,16 +1,18 @@
-[
+import React from 'react'
+
+export const items = [
     {
         "title": "Dual Voltage Energy Efficient Glass Door Freezers",
         "image": "uprightfreezers.jpg",
         "content": 
-            <ul className="">
-                <li className="">
-                    <strong className="">48" Unit Model:</strong> ICBHDG48FDV
+            <ul className="my-8">
+                <li>
+                    <strong>48" Unit Model:</strong> ICBHDG48FDV
                 </li>
-                <li className="">
-                    <strong className="">72" Unit Model:</strong> ICBHDG72FDV
+                <li>
+                    <strong>72" Unit Model:</strong> ICBHDG72FDV
                 </li>
-                <li className="">
+                <li>
                     EMC Motors for extended lifetime, up to 70% energy saving, all LED lighting
                 </li>
             </ul>,
@@ -23,9 +25,10 @@
     {
         "title": "High Value Deep Fryers",
         "image": "deepfryers.jpg",
-        "content": <>
-        
-        </>,
+        "content": 
+            <span className="my-8">
+                We carry top-quality deep fryers in multiple sizes and configurations. 
+            </span>,
         "button": {
             "internal": true,
             "title": "See More",
@@ -36,18 +39,18 @@
         "title": "Zwilling JA Henckels Cookware Set",
         "image": "zwilling.jpg",
         "content": 
-            <div className="flex flex-col">
+            <div className="flex flex-col my-8">
                 <div className="flex flex-row items-center">
                     <span className="mr-2">12 pc. set:</span>
-                    <span className="strikethrough">$299.99</span>
+                    <span className="line-through">$999.00</span>
                 </div>
                 <div className="flex flex-row items-center">
                     <span className="mr-2">Sale Price:</span>
                     <span className="font-bold text-green-600">$299.99</span>
                 </div>
                 <span>18/10 Stainless, Dishwasher Safe, SIGMA Clad 3-Ply</span>
-                <h2>Contents:</h2>
-                <ul>
+                <h2 className="font-bold mt-4">Contents:</h2>
+                <ul className="list-disc ml-5">
                     <li>
                     Ceramic non-stick fry pan 20cm / 8"
                     </li>
@@ -78,11 +81,11 @@
         "title": "Walk-In Refrigeration Rooms",
         "image": "walkinrooms.jpg",
         "content": 
-            <div className="flex flex-col">
-                <h2 className="font-bold text-lg">
+            <div className="flex flex-col my-8">
+                <h2 className="font-bold text-lg mb-2">
                     Stock Rooms
                 </h2>
-                <ul>
+                <ul className="list-disc ml-5">
                     <li>
                     Easy to Install - No Technician or Plumber Needed
                     </li>
@@ -96,10 +99,10 @@
                     Complete with Floor
                     </li>
                 </ul>
-                <h2 className="font-bold text-lg">
+                <h2 className="font-bold text-lg my-2">
                     Custom Rooms
                 </h2>
-                <ul>
+                <ul className="list-disc ml-5">
                     <li>
                     We Engineer & Manufacture Systems to Meet Your Needs
                     </li>
@@ -122,7 +125,7 @@
         "title": "Gas Cooking",
         "image": "gascooking.jpg",
         "content": 
-            <div className="flex flex-col">
+            <div className="flex flex-col my-8">
                 <span>We Have Cookers, Griddles & Char Broilers</span>
                 <span>Our Units Have <strong>Long Lasting Cast Iron Burners & Grills</strong></span>
             </div>,
@@ -136,9 +139,9 @@
         "title": "Commercial Kitchen Services",
         "image": "commercialkitchen.jpg",
         "content": 
-            <div className="flex flex-col">
-                <h2 className="font-bold">Complete Installation Service</h2>
-                <ul>
+            <div className="flex flex-col my-8">
+                <h2 className="font-bold mb-2">Complete Installation Service</h2>
+                <ul className="list-disc ml-5">
                     <li>
                     Equipment Supply
                     </li>
@@ -169,7 +172,7 @@
         "title": "ICB Coolers at Calgary Stampede",
         "image": "stampedecoolers.jpg",
         "content": 
-            <span>
+            <span className="my-8">
                 We're proud to supply a range of reliable glass door coolers to servce the thirsy crowds at the Calgary Stampede! Contact Us today to see how we can help supply premium products to your venue.
             </span>,
         "button": {
@@ -182,10 +185,10 @@
         "title": "Become a Dealer!",
         "image": "becomeadealer.jpg",
         "content": 
-            <div className="flex flex-col">
-                <span>
-                "We are doing a lot of business together, the products are very good from a callback (low) and customer satisfaction (high) perspective." - Darwin - Air-Tech Ltd.
-                </span>
+            <div className="flex flex-col my-8">
+                <span className="italic mb-4">
+                "We are doing a lot of business together, the products are very good from a callback (low) and customer satisfaction (high) perspective." <span className="not-italic">- Darwin - Air-Tech Ltd.
+                </span></span>
                 <p>
                 If you are a qualified, reputable dealer who can Install, Maintain and Repair and would like to be a dealer, please contact us today!
                 </p>
@@ -200,9 +203,26 @@
         "title": "Residential Kitchens",
         "image": "residentialkitchens.jpg",
         "content":
-            <span>
-
-            </span>,
+            <div className="my-8">
+                <h2 className="font-bold text-lg mb-2">Premium quality cabinets featuring:</h2>
+                <ul className="list-disc ml-5">
+                    <li>
+                        Birch Plywood Boxes
+                    </li>
+                    <li>
+                        3/4" Solid Maple Doors
+                    </li>
+                    <li>
+                        Dovetail Full Extension Drawers
+                    </li>
+                    <li>
+                        Soft-close Mechanism
+                    </li>
+                    <li>
+                        Concealed 6-way Hinges
+                    </li>
+                </ul>
+            </div>,
         "button": {
             "internal": false,
             "title": "Learn More",
