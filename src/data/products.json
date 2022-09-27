@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Refrigeration",
+        "image": "products-refrigeration.jpg",
+        "slug": "/products/refrigeration"
+    },
+    {
+        "title": "Ice Making",
+        "image": "products-ice-making.jpg",
+        "slug": "/products/ice-making"
+    },
+    {
+        "title": "Gas Cooking",
+        "image": "products-gas-cooking.jpg",
+        "slug": "/products/gas-cooking"
+    },
+    {
+        "title": "Cookware",
+        "image": "products-cookware.jpg",
+        "slug": "/products/cookware"
+    },
+    {
+        "title": "Dough Mixers",
+        "image": "products-dough-mixers.jpg",
+        "slug": "/products/dough-mixers"
+    },
+    {
+        "title": "Countertop Appliances",
+        "image": "products-countertop-appliances.jpg",
+        "slug": "/products/countertop-appliances"
+    },
+    {
+        "title": "Buffet Service",
+        "image": "products-buffet-service.jpg",
+        "slug": "/products/buffet-service"
+    },
+    {
+        "title": "Stainless Steel Sinks",
+        "image": "products-stainless-steel-sinks.jpg",
+        "slug": "/products/stainless-steel-sinks"
+    },
+    {
+        "title": "Stainless Steel Tables",
+        "image": "products-stainless-steel-tables.jpg",
+        "slug": "/products/stainless-steel-tables"
+    },
+    {
+        "title": "Shelving & Storage",
+        "image": "products-shelving-storage.jpg",
+        "slug": "/products/shelving-storage"
+    },
+    {
+        "title": "Chairs & Seating",
+        "image": "products-chairs-seating.jpg",
+        "slug": "/products/chairs-seating"
+    }
+]

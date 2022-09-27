@@ -1,10 +1,25 @@
 import { Link } from 'gatsby'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from '../image'
 
 const Slider = ({ items, className }) => {
 
     const [ active, setActive ] = useState(0)
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            if(active === 0){
+                setActive(active + 1)
+            }
+            else if(active === items.length - 1){
+                setActive(0)
+            }
+            else{
+                setActive(active + 1)
+            }
+        }, 3000);
+        return () => clearInterval(interval);
+      }, [ active ]);
 
     return(
         <>
@@ -22,7 +37,7 @@ const Slider = ({ items, className }) => {
                     }
                     return (
                         <div className={`absolute top-1/2 left-1/2 -translate-y-1/2 w-full h-full flex flex-col md:flex-row items-center transform transition-all duration-500 ${active === i ? 'z-20 opacity-100' : ' z-10 opacity-0'} ${activeClass}`}>
-                            <div className="h-fit md:h-full flex flex-col md:w-1/2 md:py-8">
+                            <div className="h-fit md:h-full flex flex-col justify-center md:w-1/2 p-4 md:py-8">
                                 <h1 className="text-center md:text-left text-xl md:text-3xl font-bold">
                                     {item.title}
                                 </h1>
@@ -39,7 +54,7 @@ const Slider = ({ items, className }) => {
                                 : null }
                             </div>
                             <Image 
-                                className="h-content py-4 md:py-0 my-auto md:my-0 md:w-1/2 md:h-full rounded-sm"
+                                className="h-content py-4 md:py-0 my-auto md:my-0 md:w-1/2 md:h-full rounded-lg"
                                 loading="eager"
                                 src={item.image} 
                                 alt={item.title} 

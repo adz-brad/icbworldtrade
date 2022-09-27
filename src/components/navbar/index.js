@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 const Navbar = () => {
 
     return(
-        <div className="border-b">
+        <div className="border-b rounded-b-lg shadow-lg">
             <div className="max-w-screen-xl mx-auto p-4 w-full flex flex-col lg:flex-row items-center">
                 <Link to="/">
                     <Image className="" src="logo.jpg" alt="ICB World Trade Corp Logo" />
