@@ -39,7 +39,7 @@ const Home = () => {
       </div>
       <Slider className="my-16" items={items} />
       <div className="mt-16 mb-8 flex flex-col">
-        <h2 className="p-4 md:p-2 font-bold text-3xl mb-8">Visit Us At Our New Location</h2>
+        <h2 className="p-4 md:p-2 font-bold text-2xl md:text-3xl mb-4 md:mb-8">Visit Us At Our New Location</h2>
         <iframe 
           title="ICB World Trade Location"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47752.83306851648!2d-114.06808933568799!3d51.02170691316164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5371707435eaaaab%3A0x10e0f64f650c3af6!2sIcb%20World%20Trade%20Corp!5e0!3m2!1sen!2sca!4v1664311531842!5m2!1sen!2sca" 

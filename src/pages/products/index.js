@@ -1,11 +1,24 @@
 import React from "react"
+import products from '../../data/products.json'
+import Page from "../../components/page"
+import Products from "../../components/products"
 
-const Products = () => {
+const ProductsPage = () => {
+
   return (
-    <div>
-      
-    </div>
+    <Page
+      breadcrumbs={[{"title": "Products", "slug": "/products"}]}
+      heading="Products"
+    >
+      <Products products={products} />
+    </Page>
   )
 }
 
-export default Products
+export default ProductsPage
+
+export function Head () {
+  return(
+    <title>ICB World Trade | Products</title>
+  )
+}
